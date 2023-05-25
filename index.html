@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click-me Game</title>
+    <style>
+
+        h1{
+        font-size: 60px;
+        color: rgb(9, 9, 230);
+        text-shadow: 0px 2px ;
+        }
+       p{
+        font-size: 30px;
+        color:rgb(20, 19, 19)
+       }
+       h1{
+        text-shadow: 0px 2px 4px yellow , 0px 5px 5px red;
+       }
+       img:hover{
+        border: 3px solid rgb(240, 6, 221);
+        cursor: pointer;
+        transform: skewX(8deg);
+        background-image: url('g6.jpg');
+        
+       }
+       
+     </style>
+</head>
+<body style="text-align: center;
+background-image:radial-gradient(yellow,red);
+background-size: 100%;">
+    <h1> **Click-me Game** </style></h1>
+    <p>Click the Allu Arjun picture as many times as you can in <span id="time">10</span> wacky seconds!</p>
+    <img src="g1.jpg" id="alluArjun" alt="Allu Arjun" class="allu-arjun" height="300px" width="300px" style="border: 5px solid rgb(231, 10, 10); ">
+    <p id="score" >Score: 0</p>
+
+    <script src="mini.js"  ></script> 
+
+    <div id="end" style="font-size: 40px; color: rgb(9, 9, 230); text-shadow: 0px 2px 4px yellow , 0px 5px 5px red; "></div>
+   
+</body>
+</html>
